@@ -1,0 +1,48 @@
+
+.secure {
+  font-weight: 600;
+  background: linear-gradient(265deg, #00D2B9 30%, #A300FE 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes myAnimation {
+  0%{background: linear-gradient(265deg, #00D2B9 100%, #A300FE 30%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+  25%{background: linear-gradient(265deg, #00D2B9 70%, #A300FE 30%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+  50%{background: linear-gradient(265deg, #00D2B9 70%, #A300FE 70%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+  100%{background: linear-gradient(265deg, #00D2B9 30%, #A300FE 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+}
+
+.traitors:hover{
+  cursor:default;
+  animation: myAnimation 0.095s ease forwards;
+}
+
+.create-case-button{
+  font-family: BricolageGrotesque;
+  font-size: 20px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border-style: hidden;
+  background: rgba(255, 255, 255, 0.50);
+
+}
+
+.create-case-button:hover{
+  background-color: #FFF;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover{
+  text-decoration: underline;
+  animation-fill-mode: forwards;
+}
+
+.is-connecting{
+    
+}

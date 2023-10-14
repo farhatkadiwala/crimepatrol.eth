@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+}
+
+@font-face {
+  font-family: BricolageGrotesque;
+  src: url("./BricolageGrotesque-VariableFont.ttf");
+}
+
+body{
+  color: #FFF;
+  font-family: Bricolage Grotesque;
+  font-size: 38px;
+  font-weight: 600;
+  background: radial-gradient(220.1% 140.28% at 100% 100%, #12001C 0%, #00221E 100%);
+  padding: 2rem;
+  line-height:unset;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  height: min-content;
+  text-align: left;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  padding: 0;    
+}
+
+.header-text{
+  font-size: 18px;
+  font-weight: 200;
+}
+
+img{
+  height: 8rem;
+  width: 7rem;
+}
